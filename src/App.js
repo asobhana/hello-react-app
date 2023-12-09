@@ -1,5 +1,5 @@
 import React from 'react';
-import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
+import { GoogleMap, useLoadScript, Marker, KmlLayer } from '@react-google-maps/api';
 
 const libraries = ['places'];
 const mapContainerStyle = {
@@ -33,6 +33,7 @@ const App = () => {
             center={center}
         >
           <Marker position={center} />
+          <KmlLayer url={'https://developers.google.com/kml/documentation/KML_Samples.kml?csw=1'}/>
         </GoogleMap>
       </div>
   );
