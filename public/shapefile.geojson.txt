@@ -1,0 +1,42 @@
+// Sample GeoJSON
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.644, -34.397]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [150.0, -35.0],
+          [151.0, -34.5],
+          [152.0, -34.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [150.0, -34.5],
+            [149.0, -34.5],
+            [149.0, -33.5],
+            [150.0, -33.5],
+            [150.0, -34.5]
+          ]
+        ]
+      }
+    }
+  ]
+}
